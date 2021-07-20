@@ -1,11 +1,10 @@
-# Hardhat typescript boiler plate
+# An ERC721 contract with added support to store and retrieve royalty data for multiple creators
 
-
-Add npm-check-updates globally
-`yarn global add npm-check-updates`
-
-Update you package.json
-`npm-check-updates -u`
-
-Install the packages
+Installing packages
 `yarn install`
+
+Compiling the contracts
+`npx hardhat compile`
+
+Running the tests
+`npx hardhat test`
